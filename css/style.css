@@ -55,6 +55,9 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.projects span {
+    grid-column: 1 / -1;
+}
 .misc-section {
     display: grid;
 }
