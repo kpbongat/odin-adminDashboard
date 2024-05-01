@@ -45,7 +45,7 @@ body {
 .header {   
     background-color: var(--color-secondary);
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-template: repeat(2, 1fr) / 2fr 1fr;
     font-size: var(--font-small);
 }
 
@@ -77,6 +77,20 @@ body {
     font-size: var(--font-large);
     font-weight: bold;
 
+}
+.project-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+}
+.project-buttons button {
+    width: 100px;
+    height: 30px;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 20px;
+    color: var(--color-font-primary);
 }
 .main-content {
     background-color: var(--color-tertiary);
