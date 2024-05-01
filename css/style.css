@@ -57,6 +57,16 @@ body {
     border-radius: 20px;
     height: 30px;
 }
+
+.user-info {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 2fr;
+}
+
+.user-info img {
+    grid-row: 1 / -1;
+}
+
 .main-content {
     background-color: var(--color-tertiary);
     display: grid;
