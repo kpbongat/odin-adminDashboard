@@ -53,6 +53,10 @@ body {
     align-items: center;
 }
 
+.search-bar input {
+    border-radius: 20px;
+    height: 30px;
+}
 .main-content {
     background-color: var(--color-tertiary);
     display: grid;
