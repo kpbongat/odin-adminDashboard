@@ -93,7 +93,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    align-items: center;
+    align-items: end;
 
 }
 .project-buttons button {
@@ -103,6 +103,8 @@ body {
     border: none;
     border-radius: 50px;
     color: var(--color-font-primary);
+    font-size: var(--font-small);
+    font-weight: bold;
 }
 .main-content {
     background-color: var(--color-tertiary);
