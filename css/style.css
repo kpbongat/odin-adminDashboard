@@ -126,7 +126,7 @@ body {
 
 .misc-section .card-group {
     display: grid;
-    background-color: var(--color-secondary);
+    background-color: var(--color-font-primary);
     box-shadow: 3px 3px 5px var(--color-font-shadow);
     border-radius: 10px;
     padding: 30px;
@@ -145,7 +145,7 @@ hr {
 .projects .card {
     padding: 30px;
     grid-template-rows: 1rem 1fr 30px;
-    background-color: var(--color-secondary);
+    background-color: var(--color-font-primary);
     border-radius: 10px;
     border-left: 10px solid orange;
     box-shadow: 3px 3px 5px var(--color-font-shadow);
