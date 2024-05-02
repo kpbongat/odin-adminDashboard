@@ -96,6 +96,8 @@ body {
     background-color: var(--color-tertiary);
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding: 20px;
+    gap: 20px;
 }
 
 .card {
@@ -113,11 +115,10 @@ body {
     gap: 10px;
 } 
 
-.projects {
+.projects .card-group {
     display: grid;
-    grid-template: 20px / 1fr 1fr;
-    gap: 30px;
-    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .projects .card {
@@ -128,12 +129,8 @@ body {
 .projects span {
     grid-column: 1 / -1;
 }
-.misc-section {
-    display: grid;
-}
 
-.card-group {
+.misc-section .card-group {
     display: grid;
-    grid-template-rows: 20px;
     gap: 30px;
 }
