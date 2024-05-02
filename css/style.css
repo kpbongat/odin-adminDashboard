@@ -151,8 +151,16 @@ hr {
     box-shadow: 3px 3px 5px var(--color-font-shadow);
 }
 
-.misc-section .card {
+.announcements .card {
     grid-template-rows: 1rem 1fr;
+}
+
+.trending .card {
+    grid-template: 1fr 1fr / 1fr 3fr;
+}
+
+.trending img {
+    grid-row: 1 / -1;
 }
 
 .card-buttons {
